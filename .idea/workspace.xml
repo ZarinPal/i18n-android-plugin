@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3292f1d-5801-41ae-b8b9-44b43547b4ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="i18n" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="i18n" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="i18n" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tCG5wX2PMSgqmADVYt4IU3O2rl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.language.Kotlin.scripting" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="impl" />
+      <recent name="interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.i18n [publishToMavenLocal]">
+    <configuration name="i18n [publishFirstPluginPluginMarkerMavenPublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishFirstPluginPluginMarkerMavenPublicationToMavenLocal" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="i18n [publishPluginMavenPublicationToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishPluginMavenPublicationToMavenLocal" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="i18n [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publishToMavenLocal" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="I18nPluginKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="i18n.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="io.github.imanx.I18nPluginKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="I18nPluginKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="i18n.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="I18nPluginKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.I18nPluginKt (1)" />
+        <item itemvalue="Gradle.i18n [publishPluginMavenPublicationToMavenLocal]" />
+        <item itemvalue="Gradle.i18n [publishToMavenLocal]" />
+        <item itemvalue="Gradle.i18n [publishFirstPluginPluginMarkerMavenPublicationToMavenLocal]" />
+        <item itemvalue="Kotlin.I18nPluginKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3292f1d-5801-41ae-b8b9-44b43547b4ac" name="Default Changelist" comment="" />
+      <created>1622265477658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622265477658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="235" key="#Project_Structure" timestamp="1622265561236">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="496" y="235" key="#Project_Structure/0.25.1792.1095@0.25.1792.1095" timestamp="1622265561236" />
+    <state x="598" y="379" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622271933562">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="598" y="379" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1622271933562" />
+    <state x="681" y="292" key="#com.intellij.ide.util.MemberChooser" timestamp="1622292764695">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="681" y="292" key="#com.intellij.ide.util.MemberChooser/0.25.1792.1095@0.25.1792.1095" timestamp="1622292764695" />
+    <state x="634" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1622292919698">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="634" y="323" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1622292919698" />
+    <state x="667" y="240" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1622316388880">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="667" y="240" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1622316388880" />
+    <state width="510" height="466" key="DebuggerActiveHint" timestamp="1622294461201">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="510" height="466" key="DebuggerActiveHint/0.25.1792.1095@0.25.1792.1095" timestamp="1622294461201" />
+    <state width="1750" height="191" key="GridCell.Tab.0.bottom" timestamp="1622318431432">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="191" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1622318431432" />
+    <state width="1750" height="191" key="GridCell.Tab.0.center" timestamp="1622318431431">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="191" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1622318431431" />
+    <state width="1750" height="191" key="GridCell.Tab.0.left" timestamp="1622318431431">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="191" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1622318431431" />
+    <state width="1750" height="191" key="GridCell.Tab.0.right" timestamp="1622318431432">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="191" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1622318431432" />
+    <state width="1750" height="370" key="GridCell.Tab.1.bottom" timestamp="1622316776734">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="370" key="GridCell.Tab.1.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1622316776734" />
+    <state width="1750" height="370" key="GridCell.Tab.1.center" timestamp="1622316776733">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="370" key="GridCell.Tab.1.center/0.25.1792.1095@0.25.1792.1095" timestamp="1622316776733" />
+    <state width="1750" height="370" key="GridCell.Tab.1.left" timestamp="1622316776733">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="370" key="GridCell.Tab.1.left/0.25.1792.1095@0.25.1792.1095" timestamp="1622316776733" />
+    <state width="1750" height="370" key="GridCell.Tab.1.right" timestamp="1622316776734">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state width="1750" height="370" key="GridCell.Tab.1.right/0.25.1792.1095@0.25.1792.1095" timestamp="1622316776734" />
+    <state x="384" y="151" key="SettingsEditor" timestamp="1622300068343">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="384" y="151" key="SettingsEditor/0.25.1792.1095@0.25.1792.1095" timestamp="1622300068343" />
+    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup" timestamp="1622317505303">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="561" y="269" width="670" height="676" key="search.everywhere.popup/0.25.1792.1095@0.25.1792.1095" timestamp="1622317505303" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/impl/DefaultDeserializer.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/utils/HttpHelper.kt</url>
+          <line>8</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/impl/DefaultXmlMaker.kt</url>
+          <line>36</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
