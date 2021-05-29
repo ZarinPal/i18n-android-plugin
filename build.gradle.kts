@@ -8,7 +8,7 @@ plugins {
 
 
 group = "io.github.imanx"
-version = "0.0.10"
+version = "0.0.34"
 
 repositories {
     mavenCentral()

@@ -6,7 +6,7 @@ import io.github.imanx.utils.HttpHelper
 
 
 class I18nContext(
-    private val urls: Array<Localisation>,
+    private val urls: Array<ZarinPalLocalisation>,
     private val deserializer: DefaultDeserializer,
     private val xmlMaker: DefaultXmlMaker
 ) {

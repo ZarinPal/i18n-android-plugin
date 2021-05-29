@@ -7,20 +7,25 @@ import java.io.File
 import java.io.StringWriter
 
 
-class DefaultXmlMaker(private val project: Project) {
+class DefaultXmlMaker(
+    private val project: Project,
+    private val prefixFileName: String? = null
+) {
 
 
     fun make(name: String, map: Map<String, Any>) {
-
         map.forEach {
-            val file = File("${project.rootDir}/app/src/main/res/values/strings_${name.toLowerCase()}.xml")
+            val file =
+                File("${project.rootDir}/app/src/main/res/values/${prefixFileName ?: "string"}_${name.toLowerCase()}.xml")
             val sw = StringWriter()
 
             groovy.xml.MarkupBuilder(sw).apply {
                 doubleQuotes = true
                 mkp.also { mrk ->
                     mrk.xmlDeclaration(mapOf("version" to "1.0", "encoding" to "utf-8"))
-                    mrk.comment("Generated at ${Utils.now} ZarinPal Mobile Team\n Author: ImanX")
+                    mrk.comment(
+                        "Generated at ${Utils.now} | ZarinPal Mobile Team | Author: ImanX"
+                    )
                     mrk.yield("\r\n")
                     this.withGroovyBuilder {
                         "resources" {

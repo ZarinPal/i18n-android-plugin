@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.github.imanx</groupId>
   <artifactId>io.github.imanx.gradle.plugin</artifactId>
-  <version>0.0.10</version>
+  <version>0.0.34</version>
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
       <groupId>io.github.imanx</groupId>
       <artifactId>i18n</artifactId>
-      <version>0.0.10</version>
+      <version>0.0.34</version>
     </dependency>
   </dependencies>
 </project>

@@ -10,7 +10,8 @@ import org.gradle.api.tasks.TaskAction
 
 class I18nPlugin : Plugin<Project> {
     override fun apply(target: Project) {
-        val task = target.tasks.create("syncAll", SyncTask::class.java)
+        val task = target.tasks.create("syncAndGenerateAll", SyncTask::class.java)
+//        target.extensions.create("welcome", ConfigurationExtension::class.java)
         task.group = "zarinpal i18n"
     }
 }
@@ -20,14 +21,13 @@ open class SyncTask : DefaultTask() {
 
     @TaskAction
     fun run() {
-//        val urlExtension = project.extensions.findByName("urls") as? UrlExtension ?: Localisation.arrayOfLocalisations
-//        I18nContext(Localisation.arrayOfLocalisations)
-//            .build()
+//        val extension =
+//            project.extensions.findByName("welcome") as? ConfigurationExtension
 
         I18nContext(
-            Localisation.arrayOfLocalisations,
+            ZarinPalLocalisation.arrayOfLocalisations,
             DefaultDeserializer(),
-            DefaultXmlMaker(project)
+            DefaultXmlMaker(project, null)
         ).build()
 
 

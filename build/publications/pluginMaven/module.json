@@ -3,7 +3,7 @@
   "component": {
     "group": "io.github.imanx",
     "module": "i18n",
-    "version": "0.0.10",
+    "version": "0.0.34",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.3",
-      "buildId": "rtjmlynjqnhhbbmnbh2wowhciq"
+      "buildId": "kn7gvpn3m5haznsjol4atx6ji4"
     }
   },
   "variants": [
@@ -28,13 +28,13 @@
       },
       "files": [
         {
-          "name": "i18n-0.0.10.jar",
-          "url": "i18n-0.0.10.jar",
-          "size": 28330,
-          "sha512": "a80113875751d76f4e3a1c3e0efc62f4e7d6d1d58e4dab2f4c07d4e1e26f0dfb5605727a9f80c075bf85268cd5dc4d5bc64c86d83e403d6233273d5f222f894e",
-          "sha256": "8e7030758962205055794410640b02963539207d5220b132f7e4a9386e4f4cc8",
-          "sha1": "4503e9ef782d8644b95a371b2beaa8adad9bf71a",
-          "md5": "3d6969040973c09413487c818326b034"
+          "name": "i18n-0.0.34.jar",
+          "url": "i18n-0.0.34.jar",
+          "size": 28313,
+          "sha512": "15628cda21018a3381c1bf61789111669825404cb37494839fd3a643819d0b7acbfb0bf3e1253ca17dc0ecbfa8ee6c3967d05572c48382aae356f5db52b617c9",
+          "sha256": "7a9dc8c12691575745c945d95476c120fb22211154245061841b57a6efc770bc",
+          "sha1": "a8b541dae598cb31c6c7544821b2e199bc5d46de",
+          "md5": "afe9d8e560578e5b37d83fa3e8788700"
         }
       ]
     },
@@ -67,13 +67,13 @@
       ],
       "files": [
         {
-          "name": "i18n-0.0.10.jar",
-          "url": "i18n-0.0.10.jar",
-          "size": 28330,
-          "sha512": "a80113875751d76f4e3a1c3e0efc62f4e7d6d1d58e4dab2f4c07d4e1e26f0dfb5605727a9f80c075bf85268cd5dc4d5bc64c86d83e403d6233273d5f222f894e",
-          "sha256": "8e7030758962205055794410640b02963539207d5220b132f7e4a9386e4f4cc8",
-          "sha1": "4503e9ef782d8644b95a371b2beaa8adad9bf71a",
-          "md5": "3d6969040973c09413487c818326b034"
+          "name": "i18n-0.0.34.jar",
+          "url": "i18n-0.0.34.jar",
+          "size": 28313,
+          "sha512": "15628cda21018a3381c1bf61789111669825404cb37494839fd3a643819d0b7acbfb0bf3e1253ca17dc0ecbfa8ee6c3967d05572c48382aae356f5db52b617c9",
+          "sha256": "7a9dc8c12691575745c945d95476c120fb22211154245061841b57a6efc770bc",
+          "sha1": "a8b541dae598cb31c6c7544821b2e199bc5d46de",
+          "md5": "afe9d8e560578e5b37d83fa3e8788700"
         }
       ]
     }
