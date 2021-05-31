@@ -10,7 +10,7 @@ import org.gradle.api.tasks.TaskAction
 
 class I18nPlugin : Plugin<Project> {
     override fun apply(target: Project) {
-        val task = target.tasks.create("syncAndGenerateAll", SyncTask::class.java)
+        val task = target.tasks.create("syncAndGenerateStringXmlResources", SyncTask::class.java)
 //        target.extensions.create("welcome", ConfigurationExtension::class.java)
         task.group = "zarinpal i18n"
     }
@@ -25,7 +25,7 @@ open class SyncTask : DefaultTask() {
 //            project.extensions.findByName("welcome") as? ConfigurationExtension
 
         I18nContext(
-            ZarinPalLocalisation.arrayOfLocalisations,
+            Region.fa_IR,
             DefaultDeserializer(),
             DefaultXmlMaker(project, null)
         ).build()
@@ -37,8 +37,8 @@ open class SyncTask : DefaultTask() {
 
 fun main() {
 //    I18nContext(
-//        Localisation.arrayOfLocalisations,
+//        Region.fa_IR,
 //        DefaultDeserializer(),
-//        DefaultXmlMaker(p)
+//        DefaultXmlMaker()
 //    ).build()
 }

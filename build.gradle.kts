@@ -8,7 +8,7 @@ plugins {
 
 
 group = "io.github.imanx"
-version = "0.0.34"
+version = "0.0.1"
 
 repositories {
     mavenCentral()
@@ -26,7 +26,7 @@ tasks.withType<KotlinCompile> {
 gradlePlugin {
     (plugins) {
         register("i18n") {
-            id = "io.github.imanx"
+            id = "io.github.imanx.i18n"
             implementationClass = "io.github.imanx.I18nPlugin"
         }
     }

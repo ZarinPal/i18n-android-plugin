@@ -5,8 +5,10 @@ import java.net.HttpURLConnection
 import java.net.URL
 
 object HttpHelper {
-    fun request(url: String): String {
-        val httpURLConnection = URL(url).openConnection() as HttpURLConnection
+    fun request(url: String, protocol: String = "https://"): String {
+        val a = "$protocol$url"
+        println(a)
+        val httpURLConnection = URL(a).openConnection() as HttpURLConnection
         httpURLConnection.run {
             requestMethod = "GET"
             setRequestProperty("Content-Type", "application/json; charset=UTF-8")

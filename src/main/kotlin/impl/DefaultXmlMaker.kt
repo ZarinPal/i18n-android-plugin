@@ -1,5 +1,6 @@
 package io.github.imanx.impl
 
+import io.github.imanx.Const
 import io.github.imanx.utils.Utils
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.withGroovyBuilder
@@ -24,7 +25,7 @@ class DefaultXmlMaker(
                 mkp.also { mrk ->
                     mrk.xmlDeclaration(mapOf("version" to "1.0", "encoding" to "utf-8"))
                     mrk.comment(
-                        "Generated at ${Utils.now} | ZarinPal Mobile Team | Author: ImanX"
+                        "Generated at ${Utils.now} From ${Const.repositoryUrl}\nZarinPal Mobile Team | Author: ImanX"
                     )
                     mrk.yield("\r\n")
                     this.withGroovyBuilder {
