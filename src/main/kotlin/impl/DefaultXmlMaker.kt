@@ -10,7 +10,8 @@ import java.io.StringWriter
 
 class DefaultXmlMaker(
     private val project: Project,
-    private val prefixFileName: String? = null
+    private val prefixFileName: String? = null,
+    private val prefixIdResourceName: String = "dic"
 ) {
 
 
@@ -32,7 +33,11 @@ class DefaultXmlMaker(
                         "resources" {
                             map.keys.forEach {
                                 val key = it.takeIf { Utils.isJavaKeyword(it) }?.let { "${it}_" } ?: it
-                                "string"("name" to "${name.toLowerCase()}_${key}") { mrk.yield(map[it]) }
+                                "string"("name" to "${prefixIdResourceName}_${name.toLowerCase()}_${key}") {
+                                    mrk.yield(
+                                        map[it]
+                                    )
+                                }
                             }
                         }
                     }
